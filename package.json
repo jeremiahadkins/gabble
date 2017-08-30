@@ -1,0 +1,26 @@
+{
+  "name": "gabble",
+  "version": "1.0.0",
+  "description": "Gabble social network using node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon app.js"
+  },
+  "author": "Drew Botka and Jeremiah Adkins",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "connect-flash": "^0.1.1",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "morgan": "^1.8.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.2.0",
+    "sequelize": "^4.7.5"
+  }
+}
