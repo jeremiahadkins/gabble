@@ -19,16 +19,6 @@ app.set('view engine', 'handlebars');
 
 router(app);
 
-// const migos = models.User.build({
-//   username: 'migos',
-//   display_name: 'Huncho',
-//   password: 'password' 
-// });
-
-// migos.save().then(function (newUser) {
-//   console.log(newUser);
-// })
-
 models.User.findOne().then(function (user) {
   console.log('dab o ranch', user);
 });

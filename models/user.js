@@ -4,12 +4,7 @@ module.exports = function(sequelize, DataTypes) {
     username: DataTypes.STRING,
     display_name: DataTypes.STRING,
     password: DataTypes.STRING
-  }, {
-    classMethods: {
-      associate: function(models) {
-        // associations can be defined here
-      }
-    }
-  });
+  }, {}
+  );
   return User;
 };
