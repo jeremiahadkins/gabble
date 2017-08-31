@@ -7,14 +7,14 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "jeremiahadkins",
+    "username": "db_user",
     "password": null,
     "database": "gabble_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "jeremiahadkins",
+    "username": "db_user",
     "password": null,
     "database": "gabble_production",
     "host": "127.0.0.1",
