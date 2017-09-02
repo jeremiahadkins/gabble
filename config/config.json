@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "db_user",
+    "username": "jeremiahadkins",
     "password": null,
     "database": "gabble_development",
     "host": "127.0.0.1",
